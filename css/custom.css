@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2em;
+}
+header {
+    min-height: 100vh;
+    background-image: url("../img/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navbar-default {
+    background: transparent;
+    border: none;
+    box-shadow: 0px 0px;
+    padding-top: 3vh;
+}
+.navbar-default .navbar-nav > li > a {
+    font-style: bold;
+    color: black;
+    text-shadow: none;
+}
+#code-design {
+    color: white;
+}
+.code1 {
+    min-height: 45vh;
+    background-image: url("../img/code1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.code2 {
+    min-height: 45vh;
+    background-image: url("../img/code2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#what-we-do {
+    min-height: 75vh;
+    background-color: white;
+}
+#portfolio {
+    min-height: 50vh;
+}
+.portfolio1 {
+    min-height: 50vh;
+    background-image: url("../img/portfolio1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.portfolio2 {
+    min-height: 50vh;
+    background-image: url("../img/portfolio2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.portfolio3 {
+    min-height: 50vh;
+    background-image: url("../img/portfolio3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#about {
+    color: white;
+    min-height: 85vh;
+    background-image: url("../img/aboutus.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.map {
+    min-height: 50vh;
+    background-image: url("../img/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.button {
+    width: 205px;
+    height: 50px;
+    background-image: url("../img/button.png");
+    background-position: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.bold {
+    font-weight: bold;
+}
+.top5 {
+    padding-top: 0.5em;
+}
+.mouse {
+    padding-top: 40vh;
+}
+.scroll {
+    color: white;
+}
+.intro {
+    padding-top: 10vh;
+}
+.top-buffer10 {
+    padding-top: 10vh;
+}
+.top-buffer5 {
+    padding-top: 5vh;
+}
+.about-img {
+    float: left;
+    margin-right: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.left-minus {
+    margin-left: -10%;
+}
+.lighter {
+    color: #999;
+}
+@media screen and (max-width: 415px) {
+    .logo {
+    height: 98%;
+    width: 98%;}
+}
+@media screen and (max-width: 767px) {
+
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 980px) {
+    .code1-div {
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-top: 15%;
+    padding-right: 10%;
+    text-align: justify;}
+    .code2-div {
+    margin-left: 5%;
+    margin-right: 30%;
+    margin-top: 15%;
+    padding-left: 10%;
+    text-align: justify;}
+}
+@media (min-width: 1200px) {
+   
+}
