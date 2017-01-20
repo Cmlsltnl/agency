@@ -144,13 +144,30 @@ header {
     width: 98%;}
 }
 @media screen and (max-width: 767px) {
-
+    .img-buffer {
+    margin-right: 4.7em;}
 }
 @media (min-width: 768px) {
-    
+    .code1-div {
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 15%;
+    padding-right: 10%;
+    text-align: left;}
+    .code2-div {
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 15%;
+    padding-left: 10%;
+    text-align: left;}
+    .img-buffer {
+    margin-right: 4.8em;}
 }
 @media (min-width: 980px) {
-    .code1-div {
+
+}
+@media (min-width: 1200px) {
+   .code1-div {
     margin-left: 30%;
     margin-right: 5%;
     margin-top: 15%;
@@ -162,7 +179,4 @@ header {
     margin-top: 15%;
     padding-left: 10%;
     text-align: justify;}
-}
-@media (min-width: 1200px) {
-   
 }
