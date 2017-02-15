@@ -52,26 +52,112 @@ header {
 #portfolio {
     min-height: 50vh;
 }
-.portfolio1 {
-    min-height: 50vh;
+.portfolio-item {
+    height: 50vh;
+    overflow: hidden;
+    padding: 0;
+}
+.portfolio-item .portfolio1-img .portfolio-text {
+    display: none;
+}
+.portfolio-item:hover .portfolio1-img .portfolio-text {
+    display: block;
+}
+.portfolio-item .portfolio2-img .portfolio-text {
+    display: none;
+}
+.portfolio-item:hover .portfolio2-img .portfolio-text {
+    display: block;
+}
+.portfolio-item .portfolio3-img .portfolio-text {
+    display: none;
+}
+.portfolio-item:hover .portfolio3-img .portfolio-text {
+    display: block;
+}
+.portfolio1-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     background-image: url("../img/portfolio1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.5s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.portfolio2 {
-    min-height: 50vh;
+.portfolio1-img:hover {
+    background-image: url("../img/black75.png"),url("../img/portfolio1.png");
+    zoom: 120%;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: 120%;
+    transition: 0.5s all;
+}
+.portfolio2-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     background-image: url("../img/portfolio2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.5s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.portfolio3 {
-    min-height: 50vh;
+.portfolio2-img:hover {
+    background-image: url("../img/black75.png"),url("../img/portfolio2.png");
+    zoom: 120%;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: 120%;
+    transition: 0.5s all;
+}
+.portfolio3-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     background-image: url("../img/portfolio3.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.5s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio3-img:hover {
+    background-image: url("../img/black75.png"),url("../img/portfolio3.png");
+    zoom: 120%;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: 120%;
+    transition: 0.5s all;
+}
+.portfolio-text {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
 }
 #about {
     color: white;
