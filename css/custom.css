@@ -3,7 +3,7 @@
     padding: 0;
 }
 html {
-
+    box-sizing: border-box;
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -57,23 +57,20 @@ header {
     overflow: hidden;
     padding: 0;
 }
-.portfolio-item .portfolio1-img .portfolio-text {
-    display: none;
+.portfolio-text {
+    opacity: 0;
 }
 .portfolio-item:hover .portfolio1-img .portfolio-text {
-    display: block;
-}
-.portfolio-item .portfolio2-img .portfolio-text {
-    display: none;
+    opacity: 1;
+    transition: opacity 0.7s;
 }
 .portfolio-item:hover .portfolio2-img .portfolio-text {
-    display: block;
-}
-.portfolio-item .portfolio3-img .portfolio-text {
-    display: none;
+    opacity: 1;
+    transition: opacity 0.7s;
 }
 .portfolio-item:hover .portfolio3-img .portfolio-text {
-    display: block;
+    opacity: 1;
+    transition: opacity 0.7s;
 }
 .portfolio1-img {
     margin: 0;
@@ -84,7 +81,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition: 0.5s all;
+    transition: 0.7s all;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +95,7 @@ header {
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: 120%;
-    transition: 0.5s all;
+    transition: 0.7s all;
 }
 .portfolio2-img {
     margin: 0;
@@ -190,6 +187,15 @@ header {
     color: white;
     text-decoration: none;
     font-size: 1.2em;
+}
+.button:hover p {
+    zoom: 110%;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: 110%;
+    transition: 0.5s all;
 }
 .bold {
     font-weight: bold;
